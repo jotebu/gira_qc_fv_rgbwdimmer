@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  
+  <!--PANEL 1: Taste ON/OFF -->
+  <panel pos="1" click="1" layout="pan_togglebtn" used_param="$par_mode" used_on="1">
+    <!--Fläche rot/grün-->
+    <icon_dyn layout="pan_togglebtn.full" ico="tpl_btn_green_bg">
+      <content case_slot="dim_s">
+        <case on_value="1" ico="$par_switch_on" />
+        <case on_value="0" ico="$par_switch_off" />
+      </content>
+    </icon_dyn>
+    <!--Text Ein/Aus-->
+    <text_dyn cell="text_on" value="$par_on" def_value="#ON">
+      <visible slot="dim_s" from="1" from_type="2" to="100" to_type="2" />
+    </text_dyn>
+    <text_dyn cell="text_off" value="$par_off" def_value="#OFF">
+      <visible slot="dim_s" from="0" from_type="2" to="0" to_type="2" />
+    </text_dyn>
+    <!--Aktion-->
+    <action_up click="1" type="toggle" slot="dim_s" value="1" />
+  </panel>
+  
+  <!--PANEL 1: Taste |+| |-| -->
+  <panel pos="1" click="4" layout="pan_doublebtn" used_param="$par_mode" used_on="2">
+    <icon cell="line" />
+    <icon cell="leftico" ico="tpl_ico_min" />
+    <icon cell="rightico" ico="tpl_ico_plus" />
+    <action_up click="2" type="set" slot="dim_s" value="0" to_time="500"/>
+    <action_down click="2" type="set" slot="slot_dim" value="1" from_time="501"/>
+    <action_up click="2" type="set" slot="slot_dim" value="0" from_time="501"/>
+    <action_up click="3" type="set" slot="dim_s" value="1" to_time="500"/>
+    <action_down click="3" type="set" slot="slot_dim" value="9" from_time="501"/>
+    <action_up click="3" type="set" slot="slot_dim" value="0" from_time="501"/>
+  </panel> 
+  
+  <!--PANEL 2-->
+<panel pos="2" click="1" layout="pan_dimbar">
+    <icon cell="bg" ico="tpl_dim_bg" />
+    <icon_dyn cell="bar" ico="tpl_dim_bar">
+      <width slot="red_val" min_value="$par_min" max_value="$par_max" />
+	  <width slot="green_val" min_value="$par_min" max_value="$par_max" />
+	  <width slot="blue_val" min_value="$par_min" max_value="$par_max" />
+	  <width slot="white_val" min_value="$par_min" max_value="$par_max" />
+    </icon_dyn>
+    <text_dyn cell="text" len="3" prec ="0" unit="$par_unit">
+      <content value_slot="red_val" />
+	  <content value_slot="green_val" />
+	  <content value_slot="blue_val" />
+	  <content value_slot="white_val" />
+    </text_dyn>
+    <!--Aktion-->
+    <action_up click="1" type="popup" id="1" />
+  </panel>
+  <!--POPUP-->
+  <popup id="1" layout="pop_green.form" ico="tpl_pop_bg">
+    <!--Kopfzeile Popup-->
+    <text layout="pop_green.caption" value="RGBW Dimmer" />
+    <!--Button |-|-->
+    <!--<button layout="grid1.D1-E1+pop_btn_1" type="2" icon="tpl_pop_ico_minus">
+      <action_repeat type="step_down" border="$par_min" slot="dim_val" value="$par_skip" def_value="5" />
+    </button>-->
+    <!--Button |+|-->
+    <!--<button layout="pop_btn_1" grid="grid1.D2-E2" type="2" icon="tpl_pop_ico_plus">
+      <action_repeat type="step_up" border="$par_max" slot="dim_val" value="$par_skip" def_value="5" />
+    </button>-->
+    <!--Slider-->
+    <slider layout="slider" grid="grid1.A1-F1" type="1" can_slide="true" slot="red_val" min="$par_min" max="$par_max" step="1" />
+	<slider layout="slider" grid="grid1.A2-F2" type="1" can_slide="true" slot="green_val" min="$par_min" max="$par_max" step="1" />
+	<slider layout="slider" grid="grid1.A3-F3" type="1" can_slide="true" slot="blue_val" min="$par_min" max="$par_max" step="1" />
+	<slider layout="slider" grid="grid1.A4-F4" type="1" can_slide="true" slot="white_val" min="$par_min" max="$par_max" step="1" />
+    <!--Edit-Feld
+    <edit layout="edit_2" grid="grid1.A1-A2" type="2" title="$par_caption" slot="red_val" len="3" prec="0" min="$par_min" max="$par_max" unit="$par_unit" modify="true" />
+	<edit layout="edit_2" grid="grid1.C5-D6" type="2" title="$par_caption" slot="green_val" len="3" prec="0" min="$par_min" max="$par_max" unit="$par_unit" modify="true" />
+	<edit layout="edit_2" grid="grid1.E5-F6" type="3" title="$par_caption" slot="blue_val" len="3" prec="0" min="$par_min" max="$par_max" unit="$par_unit" modify="true" />
+	<edit layout="edit_2" grid="grid1.G5-H5" type="4" title="$par_caption" slot="white_val" len="3" prec="0" min="$par_min" max="$par_max" unit="$par_unit" modify="true" />-->
+	
+	<button layout="pop_btn_ok" grid="grid1.G1-H1" type="1" text="rot" />
+	<button layout="pop_btn_ok" grid="grid1.G2-H2" type="1" text="grün" />
+	<button layout="pop_btn_ok" grid="grid1.G3-H3" type="1" text="blau" />
+	<button layout="pop_btn_ok" grid="grid1.G4-H4" type="1" text="weiß" />
+    <!--OK-Button-->
+    <button layout="pop_btn_ok" grid="grid1.G6-H6" type="1" text="#OK">
+      <action_up type="close" />
+    </button>
+  </popup>
+  
+  <!--Timer-->
+  <timer>
+    <action text="$par_on" />
+    <action text="$par_off" />
+    <action text="#8-102_percstep10" />
+    <action text="#8-102_percstep20" />
+    <action text="#8-102_percstep30" />
+    <action text="#8-102_percstep40" />
+    <action text="#8-102_percstep50" />
+    <action text="#8-102_percstep60" />
+    <action text="#8-102_percstep70" />
+    <action text="#8-102_percstep80" />
+    <action text="#8-102_percstep90" />
+    <action text="#8-102_percstep100" />
+  </timer>
+</template>

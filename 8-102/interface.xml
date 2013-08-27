@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Template 8-102: RGBW Dimmer extended (AZ)-->
+<template has_timer="false" function_key="light" folder="light">
+  
+	<slots>
+		<slot id="dim_s" text="#8-102_schalt" help="#8-102_schalt_hlp" type="KO_NUM" />
+		<slot id="dim_val" text="#8-102_hw" help="#8-102_hw_hlp" type="KO_NUM" />
+        <slot id="slot_dim" text="#8-102_dim" help="#8-102_dim_hlp" type="KO_NUM" />
+		<slot id="red_val" text="Wert rot" help="Wert rot" type="KO_NUM" />
+		<slot id="green_val" text="Wert grün" help="Wert grün" type="KO_NUM" />
+		<slot id="blue_val" text="Wert blau" help="Wert blau" type="KO_NUM" />
+		<slot id="white_val" text="Wert weiß" help="Wert weiß" type="KO_NUM" />
+		
+
+    <iconset id="1">
+      <icon name="tpl_btn_green_bg"/>
+      <icon name="tpl_btn_red_bg"/>
+      <icon name="tpl_btn_blue_bg"/>
+      <icon name="tpl_btn_lightblue_bg"/>
+      <icon name="tpl_btn_orange_bg"/>
+      <icon name="tpl_btn_magenta_bg"/>
+      <icon name="tpl_btn_violett_bg"/>
+      <icon name="tpl_btn_brown_bg"/>
+      <icon name="tpl_btn_yellow_bg"/>
+      <icon name="tpl_btn_darkgrey_bg"/>
+      <icon name="tpl_btn_lightgrey_bg"/>
+      <icon name="blank"/>
+    </iconset>
+
+    <parameter id="par_mode" text="#8-102_par_mode" help="#8-102_par_mode_hlp" type="SELECT" default="1">
+      <entry id="1" name="#8-102_type1"/>
+      <entry id="2" name="#8-102_type2"/>
+      <dependency id="par_switch_on" visible_selection="1"/>
+      <dependency id="par_switch_off" visible_selection="1"/>
+      <dependency id="slot_dim" visible_selection="2"/>  
+    </parameter>  
+    
+    <parameter id="par_on" text="#tpl.par_on" help="#tpl.par_on_hlp" type="TEXT" default="#ON" />
+    <parameter id="par_off" text="#tpl.par_off" help="#tpl.par_off_hlp" type="TEXT" default="#OFF" />
+    <parameter id="par_switch_on"  text="#tpl.icon_on"   help="#tpl.icon_on_hlp"   type="ICON"   default="tpl_btn_green_bg"  iconset="1"/>
+    <parameter id="par_switch_off" text="#tpl.icon_off"  help="#tpl.icon_off_hlp"  type="ICON"   default="tpl_btn_red_bg"    iconset="1"/>
+    <parameter id="par_unit" text="#8-102_par_unit" help="#8-102_par_unit_hlp" type="TEXT" default="%" />
+    <parameter id="par_caption" text="#tpl.par_caption" help="#tpl.par_caption_hlp" type="TEXT" default="#8-102_Dimmer" />
+
+    <parameter id="par_skip" text="#tpl.par_skip" help="#tpl.par_skip_hlp" type="FLOAT" min="1" max="10" default="$dim_val.steps" />    
+    <parameter id="par_min" text="#tpl.par_min" help="#tpl.par_min_hlp" type="FLOAT" min="0" max="255" default="0" />
+    <parameter id="par_max" text="#tpl.par_max" help="#tpl.par_max_hlp" type="FLOAT" min="0" max="255" default="255" />
+    
+    
+
+
+  </slots>
+  
+	<timer>
+		<action text="#ON">
+			<cmd op="1" slot_id="dim_s" value="1" />
+		</action>
+		<action text="#OFF">
+			<cmd op="1" slot_id="dim_s" value="0" />
+		</action>
+		<action text="#8-102_percstep10">
+			<cmd op="1" slot_id="dim_val" value="10" />
+		</action>
+		<action text="#8-102_percstep20">
+			<cmd op="1" slot_id="dim_val" value="20" />
+		</action>
+		<action text="#8-102_percstep30">
+			<cmd op="1" slot_id="dim_val" value="30" />
+		</action>
+		<action text="#8-102_percstep40">
+			<cmd op="1" slot_id="dim_val" value="40" />
+		</action>
+		<action text="#8-102_percstep50">
+			<cmd op="1" slot_id="dim_val" value="50" />
+		</action>
+		<action text="#8-102_percstep60">
+			<cmd op="1" slot_id="dim_val" value="60" />
+		</action>		
+		<action text="#8-102_percstep70">
+			<cmd op="1" slot_id="dim_val" value="70" />
+		</action>
+		<action text="#8-102_percstep80">
+			<cmd op="1" slot_id="dim_val" value="80" />
+		</action>
+		<action text="#8-102_percstep90">
+			<cmd op="1" slot_id="dim_val" value="90" />
+		</action>
+		<action text="#8-102_percstep100">
+			<cmd op="1" slot_id="dim_val" value="100" />
+		</action>
+	</timer>
+  
+</template>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <text key="#8-102_tplname" default="RGBW Dimmer extended (AZ)">
+    <lang id="de" value="RGBW Dimmer extended (AZ)" />
+    <lang id="en" value="RGBW Dimmer extended (AZ)" />
+    <lang id="fr" value="RGBW Dimmer extended (AZ)" />
+    <lang id="it" value="RGBW Dimmer extended (AZ)" />
+  </text>
+  <text key="#8-102_hw" default="Helligkeitswert">
+    <lang id="de" value="Helligkeitswert" />
+    <lang id="en" value="Brightness value" />
+    <lang id="fr" value="Valeur de luminosité" />
+    <lang id="it" value="Valore di luminosità" />
+  </text>
+  <text key="#8-102_hw_hlp" default="Helligkeitswert des Dimmers">
+    <lang id="de" value="Helligkeitswert des Dimmers" />
+    <lang id="en" value="Brightness value of dimmer" />
+    <lang id="fr" value="Valeur de luminosité du variateur" />
+    <lang id="it" value="Valore di luminosità del dimmer" />
+  </text>
+  <text key="#8-102_schalt" default="Schalten">
+    <lang id="de" value="Schalten" />
+    <lang id="en" value="Switching" />
+    <lang id="fr" value="Commuter" />
+    <lang id="it" value="Commutazione" />
+  </text>
+  <text key="#8-102_schalt_hlp" default="Schaltobjekt des Dimmers">
+    <lang id="de" value="Schaltobjekt des Dimmers" />
+    <lang id="en" value="Switching object of dimmer" />
+    <lang id="fr" value="Objet de commutation du variateur" />
+    <lang id="it" value="Oggetto di commutazione del dimmer" />
+  </text>
+  <text key="#8-102_dim" default="Dimmen">
+    <lang id="de" value="Dimmen" />
+    <lang id="en" value="Dimming" />
+    <lang id="fr" value="Varier" />
+    <lang id="it" value="Regolazione luce" />
+  </text>
+  <text key="#8-102_dim_hlp" default="Dimmobjekt des Dimmers">
+    <lang id="de" value="Dimmobjekt des Dimmers" />
+    <lang id="en" value="Dimming object of dimmer" />
+    <lang id="fr" value="Objet de variation du variateur" />
+    <lang id="it" value="Oggetto di regolazione luce del dimmer" />
+  </text>
+  <text key="#8-102_par_unit" default="Einheit">
+    <lang id="de" value="Einheit" />
+    <lang id="en" value="Unit" />
+    <lang id="fr" value="Unité" />
+    <lang id="it" value="Unità" />
+  </text>
+  <text key="#8-102_par_unit_hlp" default="">
+    <lang id="de" value="Einheit für den Dimmwert" />
+    <lang id="en" value="Unit for dimming value" />
+    <lang id="fr" value="Unité pour la valeur de variation" />
+    <lang id="it" value="Unità per il valore di regolazione luce" />
+  </text>
+  <text key="#8-102_Dimmer" default="Dimmer">
+    <lang id="de" value="Dimmer" />
+    <lang id="en" value="Dimmer" />
+    <lang id="fr" value="Variateur" />
+    <lang id="it" value="Dimmer" />
+  </text>
+  <text key="#8-102_par_mode" default="Bedienung">
+    <lang id="de" value="Bedienung" />
+    <lang id="en" value="Operation" />
+    <lang id="fr" value="Commande" />
+    <lang id="it" value="Utilizzo" />
+  </text>
+  <text key="#8-102_par_mode_hlp" default="Togglebetrieb: Mit der Taste EIN/AUS wird das Schaltobjekt bedient. Tastsensorbetrieb: Mit den Tasten |+| und |-| wird das Dimmobjekt (langer Tastendruck) und das Schaltobjekt (kurzer Tastendruck) bedient.">
+    <lang id="de" value="Togglebetrieb: Mit der Taste EIN/AUS wird das Schaltobjekt bedient. Tastsensorbetrieb: Mit den Tasten |+| und |-| wird das Dimmobjekt (langer Tastendruck) und das Schaltobjekt (kurzer Tastendruck) bedient." />
+    <lang id="en" value="Toggling mode: The switching object is operated via the ON/OFF button. Push button sensor mode: The dimming object (long button press) and the switching object (short button press) are operated with the |+| and |-| buttons." />
+    <lang id="fr" value="Fonctionnement de bascule: avec la touche MARCHE/ARRET, on commande l'objet de commutation. Fonctionnement de Tastsensor: avec les touches |+| et |-|, on commande l'objet de variation (pression longue sur la touche) et l'objet de commutation (pression courte sur la touche)." />
+    <lang id="it" value="Servizio toggle: Con il tasto ON/OFF si comanda l'oggetto di commutazione. Servizio sensore a pulsante: Con i tasti |+| e |-| si comanda l'oggetto di regolazione luce (lunga pressione del tasto) e l'oggetto di commutazione (pressione breve del tasto)." />
+  </text>
+  <text key="#8-102_type1" default="Togglebetrieb">
+    <lang id="de" value="Togglebetrieb" />
+    <lang id="en" value="Toggling mode" />
+    <lang id="fr" value="Fonctionnement de bascule" />
+    <lang id="it" value="Servizio toggle" />
+  </text>
+  <text key="#8-102_type2" default="Tastsensorbetrieb">
+    <lang id="de" value="Tastsensorbetrieb" />
+    <lang id="en" value="Push button sensor mode" />
+    <lang id="fr" value="Fonctionnement de Tastsensor" />
+    <lang id="it" value="Servizio sensore a pulsante" />
+  </text>
+</language>

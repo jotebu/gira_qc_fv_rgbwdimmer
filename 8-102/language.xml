@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <text key="#8-102_light_off" default="Licht aus">
+    <lang id="de" value="Licht aus" />
+    <lang id="en" value="Light off" />
+    <lang id="cz" value="Osvětlení vypnout" />
+    <lang id="dk" value="Lys fra" />
+    <lang id="es" value="Luz apagada" />
+    <lang id="fi" value="Valo pois päältä" />
+    <lang id="fr" value="Eteindre la lumière" />
+    <lang id="gr" value="Απενεργοποίηση φωτός" />
+    <lang id="hu" value="Világítás ki" />
+    <lang id="is" value="Slökkva á ljósum" />
+    <lang id="lv" value="Gaisma izslēgta" />
+    <lang id="nl" value="Licht uit" />
+    <lang id="no" value="Lys av" />
+    <lang id="pl" value="Światło wył." />
+    <lang id="pt" value="Luz desligada" />
+    <lang id="ro" value="Lumină oprit" />
+    <lang id="ru" value="Выкл. свет" />
+    <lang id="se" value="Ljus av" />
+    <lang id="sk" value="Svetlo vyp" />
+    <lang id="si" value="Izklop luči" />
+    <lang id="it" value="Luce Off" />
+  </text>
+  <text key="#8-102_light_on" default="Licht ein">
+    <lang id="de" value="Licht ein" />
+    <lang id="en" value="Light on" />
+    <lang id="cz" value="Osvětlení zapnout" />
+    <lang id="dk" value="Lys til" />
+    <lang id="es" value="Luz encendida" />
+    <lang id="fi" value="Valo päälle" />
+    <lang id="fr" value="Allumer la lumière" />
+    <lang id="gr" value="Ενεργοποίηση φωτός" />
+    <lang id="hu" value="Világítás be" />
+    <lang id="is" value="Kveikja ljós" />
+    <lang id="lv" value="Gaisma ieslēgta" />
+    <lang id="nl" value="Licht aan" />
+    <lang id="no" value="Lys på" />
+    <lang id="pl" value="Światło wł." />
+    <lang id="pt" value="Luz ligada" />
+    <lang id="ro" value="Lumină pornit" />
+    <lang id="ru" value="Вкл. свет" />
+    <lang id="se" value="Ljus på" />
+    <lang id="sk" value="Svetlo zap" />
+    <lang id="si" value="Vklop luči" />
+    <lang id="it" value="Luce On" />
+  </text>
+  <text key="#8-102_PopNumLicht" default="Dimmwert">
+    <lang id="de" value="Dimmwert" />
+    <lang id="en" value="Dimming value" />
+    <lang id="cz" value="Hodnota stmívání" />
+    <lang id="dk" value="Dæmperværdi" />
+    <lang id="es" value="Valor de regulación" />
+    <lang id="fi" value="Valonsäätöarvo" />
+    <lang id="fr" value="Valeur de variation" />
+    <lang id="gr" value="Τιμή ρύθμισης έντασης φωτισμού" />
+    <lang id="hu" value="Dimmer érték" />
+    <lang id="is" value="Myrkvunargildi" />
+    <lang id="lv" value="Gaismas regulēšanas vērtība" />
+    <lang id="nl" value="Dimwaarde" />
+    <lang id="no" value="Lysdempingsverdi" />
+    <lang id="pl" value="Wartość ściemniania" />
+    <lang id="pt" value="Valor de escurecimento" />
+    <lang id="ro" value="Valoare dimmer" />
+    <lang id="ru" value="Значение регулировки света" />
+    <lang id="se" value="Dimmervärde" />
+    <lang id="sk" value="Hodnota stmievania" />
+    <lang id="si" value="Vrednost zatemnitve" />
+    <lang id="it" value="Valore di regolazione luce" />
+  </text>
+  <text key="#8-102_PopupTextDimmer" default="Helligkeitswert">
+    <lang id="de" value="Helligkeitswert" />
+    <lang id="en" value="Brightness value" />
+    <lang id="cz" value="Hodnota jasu" />
+    <lang id="dk" value="Lysstyrkeværdi" />
+    <lang id="es" value="Valor de luminosidad" />
+    <lang id="fi" value="Kirkkausarvo" />
+    <lang id="fr" value="Valeur de luminosité" />
+    <lang id="gr" value="Τιμή φωτεινότητας" />
+    <lang id="hu" value="Fényerőérték" />
+    <lang id="is" value="Birtustigsgildi" />
+    <lang id="lv" value="Spilgtuma vērtība" />
+    <lang id="nl" value="Lichtsterkte" />
+    <lang id="no" value="Lysstyrkeverdi" />
+    <lang id="pl" value="Wartość jasności" />
+    <lang id="pt" value="Valor de luminosidade" />
+    <lang id="ro" value="Valoare strălucire" />
+    <lang id="ru" value="Значение яркости" />
+    <lang id="se" value="Luxvärde" />
+    <lang id="sk" value="Hodnota jasu" />
+    <lang id="si" value="Vrednost osvetlitve" />
+    <lang id="it" value="Valore di luminosità" />
+  </text>
+  <text key="#8-102_percstep10" default="Auf 10% setzen">
+    <lang id="de" value="Auf 10% setzen" />
+    <lang id="en" value="Set to 10%" />
+    <lang id="cz" value="Nastavit na 10%" />
+    <lang id="dk" value="Sæt til 10%" />
+    <lang id="es" value="Ajustar al 10%" />
+    <lang id="fi" value="Asetetaan 10%:iin" />
+    <lang id="fr" value="Régler sur 10%" />
+    <lang id="gr" value="Ρύθμιση στο 10%" />
+    <lang id="hu" value="10%-ra állítás" />
+    <lang id="is" value="Stilla á 10%" />
+    <lang id="lv" value="Iestatīt uz 10%" />
+    <lang id="nl" value="Op 10% instellen" />
+    <lang id="no" value="Sett på 10%" />
+    <lang id="pl" value="Ustaw na 10%" />
+    <lang id="pt" value="Definir para 10%" />
+    <lang id="ro" value="Setare la 10%" />
+    <lang id="ru" value="Установить на 10%" />
+    <lang id="se" value="Ställ in på 10%" />
+    <lang id="sk" value="Nastaviť na 10%" />
+    <lang id="si" value="Nastavite na 10%" />
+    <lang id="it" value="Imposta su 10%" />
+  </text>
+  <text key="#8-102_percstep100" default="Auf 100% setzen">
+    <lang id="de" value="Auf 100% setzen" />
+    <lang id="en" value="Set to 100%" />
+    <lang id="cz" value="Nastavit na 100%" />
+    <lang id="dk" value="Sæt til 100%" />
+    <lang id="es" value="Ajustar al 100%" />
+    <lang id="fi" value="Asetetaan 100%:iin" />
+    <lang id="fr" value="Régler sur 100%" />
+    <lang id="gr" value="Ρύθμιση στο 100%" />
+    <lang id="hu" value="100%-ra állítás" />
+    <lang id="is" value="Stilla á 100%" />
+    <lang id="lv" value="Iestatīt uz 100%" />
+    <lang id="nl" value="Op 100% instellen" />
+    <lang id="no" value="Sett på 100%" />
+    <lang id="pl" value="Ustaw na 100%" />
+    <lang id="pt" value="Definir para 100%" />
+    <lang id="ro" value="Setare la 100%" />
+    <lang id="ru" value="Установить на 100%" />
+    <lang id="se" value="Ställ in på 100%" />
+    <lang id="sk" value="Nastaviť na 100%" />
+    <lang id="si" value="Nastavite na 100%" />
+    <lang id="it" value="Imposta su 100%" />
+  </text>
+  <text key="#8-102_percstep20" default="Auf 20% setzen">
+    <lang id="de" value="Auf 20% setzen" />
+    <lang id="en" value="Set to 20%" />
+    <lang id="cz" value="Nastavit na 20%" />
+    <lang id="dk" value="Sæt til 20%" />
+    <lang id="es" value="Ajustar al 20%" />
+    <lang id="fi" value="Asetetaan 20%:iin" />
+    <lang id="fr" value="Régler sur 20%" />
+    <lang id="gr" value="Ρύθμιση στο 20%" />
+    <lang id="hu" value="20%-ra állítás" />
+    <lang id="is" value="Stilla á 20%" />
+    <lang id="lv" value="Iestatīt uz 20%" />
+    <lang id="nl" value="Op 20% instellen" />
+    <lang id="no" value="Sett på 20%" />
+    <lang id="pl" value="Ustaw na 20%" />
+    <lang id="pt" value="Definir para 20%" />
+    <lang id="ro" value="Setare la 20%" />
+    <lang id="ru" value="Установить на 20%" />
+    <lang id="se" value="Ställ in på 20%" />
+    <lang id="sk" value="Nastaviť na 20%" />
+    <lang id="si" value="Nastavite na 20%" />
+    <lang id="it" value="Imposta su 20%" />
+  </text>
+  <text key="#8-102_percstep30" default="Auf 30% setzen">
+    <lang id="de" value="Auf 30% setzen" />
+    <lang id="en" value="Set to 30%" />
+    <lang id="cz" value="Nastavit na 30%" />
+    <lang id="dk" value="Sæt til 30%" />
+    <lang id="es" value="Ajustar al 30%" />
+    <lang id="fi" value="Asetetaan 30%:iin" />
+    <lang id="fr" value="Régler sur 30%" />
+    <lang id="gr" value="Ρύθμιση στο 30%" />
+    <lang id="hu" value="30%-ra állítás" />
+    <lang id="is" value="Stilla á 30%" />
+    <lang id="lv" value="Iestatīt uz 30%" />
+    <lang id="nl" value="Op 30% instellen" />
+    <lang id="no" value="Sett på 30%" />
+    <lang id="pl" value="Ustaw na 30%" />
+    <lang id="pt" value="Definir para 30%" />
+    <lang id="ro" value="Setare la 30%" />
+    <lang id="ru" value="Установить на 30%" />
+    <lang id="se" value="Ställ in på 30%" />
+    <lang id="sk" value="Nastaviť na 30%" />
+    <lang id="si" value="Nastavite na 30%" />
+    <lang id="it" value="Imposta su 30%" />
+  </text>
+  <text key="#8-102_percstep40" default="Auf 40% setzen">
+    <lang id="de" value="Auf 40% setzen" />
+    <lang id="en" value="Set to 40%" />
+    <lang id="cz" value="Nastavit na 40%" />
+    <lang id="dk" value="Sæt til 40%" />
+    <lang id="es" value="Ajustar al 40%" />
+    <lang id="fi" value="Asetetaan 40%:iin" />
+    <lang id="fr" value="Régler sur 40%" />
+    <lang id="gr" value="Ρύθμιση στο 40%" />
+    <lang id="hu" value="40%-ra állítás" />
+    <lang id="is" value="Stilla á 40%" />
+    <lang id="lv" value="Iestatīt uz 40%" />
+    <lang id="nl" value="Op 40% instellen" />
+    <lang id="no" value="Sett på 40%" />
+    <lang id="pl" value="Ustaw na 40%" />
+    <lang id="pt" value="Definir para 40%" />
+    <lang id="ro" value="Setare la 40%" />
+    <lang id="ru" value="Установить на 40%" />
+    <lang id="se" value="Ställ in på 40%" />
+    <lang id="sk" value="Nastaviť na 40%" />
+    <lang id="si" value="Nastavite na 40%" />
+    <lang id="it" value="Imposta su 40%" />
+  </text>
+  <text key="#8-102_percstep50" default="Auf 50% setzen">
+    <lang id="de" value="Auf 50% setzen" />
+    <lang id="en" value="Set to 50%" />
+    <lang id="cz" value="Nastavit na 50%" />
+    <lang id="dk" value="Sæt til 50%" />
+    <lang id="es" value="Ajustar al 50%" />
+    <lang id="fi" value="Asetetaan 50%:iin" />
+    <lang id="fr" value="Régler sur 50%" />
+    <lang id="gr" value="Ρύθμιση στο 50%" />
+    <lang id="hu" value="50%-ra állítás" />
+    <lang id="is" value="Stilla á 50%" />
+    <lang id="lv" value="Iestatīt uz 50%" />
+    <lang id="nl" value="Op 50% instellen" />
+    <lang id="no" value="Sett på 50%" />
+    <lang id="pl" value="Ustaw na 50%" />
+    <lang id="pt" value="Definir para 50%" />
+    <lang id="ro" value="Setare la 50%" />
+    <lang id="ru" value="Установить на 50%" />
+    <lang id="se" value="Ställ in på 50%" />
+    <lang id="sk" value="Nastaviť na 50%" />
+    <lang id="si" value="Nastavite na 50%" />
+    <lang id="it" value="Imposta su 50%" />
+  </text>
+  <text key="#8-102_percstep60" default="Auf 60% setzen">
+    <lang id="de" value="Auf 60% setzen" />
+    <lang id="en" value="Set to 60%" />
+    <lang id="cz" value="Nastavit na 60%" />
+    <lang id="dk" value="Sæt til 60%" />
+    <lang id="es" value="Ajustar al 60%" />
+    <lang id="fi" value="Asetetaan 60%:iin" />
+    <lang id="fr" value="Régler sur 60%" />
+    <lang id="gr" value="Ρύθμιση στο 60%" />
+    <lang id="hu" value="60%-ra állítás" />
+    <lang id="is" value="Stilla á 60%" />
+    <lang id="lv" value="Iestatīt uz 60%" />
+    <lang id="nl" value="Op 60% instellen" />
+    <lang id="no" value="Sett på 60%" />
+    <lang id="pl" value="Ustaw na 60%" />
+    <lang id="pt" value="Definir para 60%" />
+    <lang id="ro" value="Setare la 60%" />
+    <lang id="ru" value="Установить на 60%" />
+    <lang id="se" value="Ställ in på 60%" />
+    <lang id="sk" value="Nastaviť na 60%" />
+    <lang id="si" value="Nastavite na 60%" />
+    <lang id="it" value="Imposta su 60%" />
+  </text>
+  <text key="#8-102_percstep70" default="Auf 70% setzen">
+    <lang id="de" value="Auf 70% setzen" />
+    <lang id="en" value="Set to 70%" />
+    <lang id="cz" value="Nastavit na 70%" />
+    <lang id="dk" value="Sæt til 70%" />
+    <lang id="es" value="Ajustar al 70%" />
+    <lang id="fi" value="Asetetaan 70%:iin" />
+    <lang id="fr" value="Régler sur 70%" />
+    <lang id="gr" value="Ρύθμιση στο 70%" />
+    <lang id="hu" value="70%-ra állítás" />
+    <lang id="is" value="Stilla á 70%" />
+    <lang id="lv" value="Iestatīt uz 70%" />
+    <lang id="nl" value="Op 70% instellen" />
+    <lang id="no" value="Sett på 70%" />
+    <lang id="pl" value="Ustaw na 70%" />
+    <lang id="pt" value="Definir para 70%" />
+    <lang id="ro" value="Setare la 70%" />
+    <lang id="ru" value="Установить на 70%" />
+    <lang id="se" value="Ställ in på 70%" />
+    <lang id="sk" value="Nastaviť na 70%" />
+    <lang id="si" value="Nastavite na 70%" />
+    <lang id="it" value="Imposta su 70%" />
+  </text>
+  <text key="#8-102_percstep80" default="Auf 80% setzen">
+    <lang id="de" value="Auf 80% setzen" />
+    <lang id="en" value="Set to 80%" />
+    <lang id="cz" value="Nastavit na 80%" />
+    <lang id="dk" value="Sæt til 80%" />
+    <lang id="es" value="Ajustar al 80%" />
+    <lang id="fi" value="Asetetaan 80%:iin" />
+    <lang id="fr" value="Régler sur 80%" />
+    <lang id="gr" value="Ρύθμιση στο 80%" />
+    <lang id="hu" value="80%-ra állítás" />
+    <lang id="is" value="Stilla á 80%" />
+    <lang id="lv" value="Iestatīt uz 80%" />
+    <lang id="nl" value="Op 80% instellen" />
+    <lang id="no" value="Sett på 80%" />
+    <lang id="pl" value="Ustaw na 80%" />
+    <lang id="pt" value="Definir para 80%" />
+    <lang id="ro" value="Setare la 80%" />
+    <lang id="ru" value="Установить на 80%" />
+    <lang id="se" value="Ställ in på 80%" />
+    <lang id="sk" value="Nastaviť na 80%" />
+    <lang id="si" value="Nastavite na 80%" />
+    <lang id="it" value="Imposta su 80%" />
+  </text>
+  <text key="#8-102_percstep90" default="Auf 90% setzen">
+    <lang id="de" value="Auf 90% setzen" />
+    <lang id="en" value="Set to 90%" />
+    <lang id="cz" value="Nastavit na 90%" />
+    <lang id="dk" value="Sæt til 90%" />
+    <lang id="es" value="Ajustar al 90%" />
+    <lang id="fi" value="Asetetaan 90%:iin" />
+    <lang id="fr" value="Régler sur 90%" />
+    <lang id="gr" value="Ρύθμιση στο 90%" />
+    <lang id="hu" value="90%-ra állítás" />
+    <lang id="is" value="Stilla á 90%" />
+    <lang id="lv" value="Iestatīt uz 90%" />
+    <lang id="nl" value="Op 90% instellen" />
+    <lang id="no" value="Sett på 90%" />
+    <lang id="pl" value="Ustaw na 90%" />
+    <lang id="pt" value="Definir para 90%" />
+    <lang id="ro" value="Setare la 90%" />
+    <lang id="ru" value="Установить на 90%" />
+    <lang id="se" value="Ställ in på 90%" />
+    <lang id="sk" value="Nastaviť na 90%" />
+    <lang id="si" value="Nastavite na 90%" />
+    <lang id="it" value="Imposta su 90%" />
+  </text>
+</language>
